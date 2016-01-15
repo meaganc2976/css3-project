@@ -1,5 +1,26 @@
 body {
-    background-image: url("clouds.png");
-    background-size: cover;
-
+    background: linear-gradient(to right, rgba(76, 0, 153,.5), rgba(102, 178, 255,.5)), url("clouds.png");
+    background-size:cover;
+    
 }
+
+h2{
+    font-size: 60px;
+    float:left;
+    font-family: Palatino Linotype;
+    color:white;
+    text-shadow: 4px 4px #000000;
+    transition: transform 2s;
+   
+}
+
+.images {
+     animation:FADE-IN 2s 1;
+}
+
+h2:hover{
+    transform: rotate(180deg);
+}
+
+
+
